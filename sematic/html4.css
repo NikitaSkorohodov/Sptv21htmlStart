@@ -1,0 +1,69 @@
+body{
+    background-color: #cccccc;
+    font-family: arial, Sans-Serif;
+    margin: 0px auto;
+    border: solid 4px white;
+}
+.head{
+    display: block;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3{
+    color: orange;
+    text-align: center;
+}
+h4{
+    color: orange;
+    background-color: white;
+    transform: rotate(-45deg);
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+    left: -140px;
+    top: -350px;
+}
+#nav{
+    width: 25%;
+    float: left;
+}
+#nav a:link, #nav a:visited{
+    display: block;
+    font-weight: bold;
+    padding:10px;
+    text-decoration: none;
+    margin: 5px;
+}
+#nav a:hover{
+    color: white;
+    background-color:orange;
+}
+.section{
+    display: block;
+    width: 50%;
+    float: left;
+}
+div.header{
+    border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.article p{
+    margin: 10px;
+}
+#aside p{
+    float: left;
+    width: 25%;
+}
+#aside p{
+    margin: 15px;
+}
+#Footer{
+    clear: both;
+    color: white;
+    border-color: orange;
+    text-align: center;
+    padding: 15px;
+}
